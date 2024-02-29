@@ -1,0 +1,15 @@
+.title {
+    color: black; /* White text for contrast */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center the title text */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin: 20px 0; /* Add some margin to top and bottom */
+    font-family: 'Arial', sans-serif; /* Use a common font */
+    
+    text-transform: uppercase; /* Optional: uppercase styling */
+    letter-spacing: 1.5px; /* Optional: increase letter spacing */
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+  

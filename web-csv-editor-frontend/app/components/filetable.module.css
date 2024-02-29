@@ -1,0 +1,63 @@
+.table{
+    width: 95%;
+    border-collapse: collapse;
+    border-color: rgba(0, 0, 0, 0.559);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.table th, .table td{
+    border: 1px solid rgba(0, 0, 0, 0.559);
+    padding: 8px;
+    text-align: left;
+    height: 80px;
+}
+
+.table th:last-child,
+.table td:last-child {
+  width: 10%;
+}
+
+.table th:first-child,
+.table td:first-child {
+  width: 50%; /* Make the first column wider */
+}
+
+.editButton{
+  
+  justify-self: center;
+  padding: 5px;
+  color: black;
+  border: 1px black;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bolder;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.editButton:hover{
+  background-color: rgba(0, 128, 0, 0.596);
+}
+
+.deleteButton{
+  
+  justify-self: center;
+  padding: 5px;
+  color: white;
+  border: 1px black;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bolder;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  background-color: red;
+  margin: 5px;
+}
+
+.deleteButton:hover{
+  background-color: rgb(106, 8, 8);
+}

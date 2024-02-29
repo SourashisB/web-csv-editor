@@ -1,0 +1,23 @@
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.uploadButton{
+    background-color: rgba(172, 255, 47, 0.745);
+    border: 1px green;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.uploadButton:hover{
+    background-color: rgba(0, 128, 0, 0.596);
+}

@@ -1,0 +1,37 @@
+.sidebar {
+  width: auto; /* Adjust the width of the sidebar */
+  height: 100vh; /* Full height */
+  display: flex; /* Fixed sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ADD8E6; /* Light blue background */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.title {
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  color: #333; /* Dark text for the title */
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #fff; /* White bottom border */
+  color: white; /* White text for nav items */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navItem:hover {
+  background-color: #f1f1f1;
+  color: #333; /* Dark text on hover */
+}
