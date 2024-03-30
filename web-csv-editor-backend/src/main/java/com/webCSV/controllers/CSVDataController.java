@@ -49,4 +49,9 @@ public class CSVDataController {
         csvDataService.deleteCsvData(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "Hello test";
+    }
 }
